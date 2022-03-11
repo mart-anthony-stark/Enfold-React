@@ -1,14 +1,24 @@
 import { FC } from "react";
 import { EnfoldProps } from "./Enfold.types";
 
-const Enfold: FC<EnfoldProps> = (props) => {
+const Enfold: FC<EnfoldProps> = ({
+  name,
+  children,
+  options = {
+    delay: "0s",
+    easing: "ease",
+    duration: "1s",
+    intensity: "",
+    threshold: 0.3,
+  },
+}) => {
   return (
     <div
       id="enfold"
       style={{
-        animationDuration: props.options.duration,
-        animationTimingFunction: props.options.easing,
-        animationDelay: props.options.delay,
+        animationDuration: options.duration,
+        animationTimingFunction: options.easing,
+        animationDelay: options.delay,
       }}
     ></div>
   );
