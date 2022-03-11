@@ -1,0 +1,85 @@
+.fadeIn {
+  animation-name: fadeIn !important;
+}
+.fadeLeft {
+  animation-name: fadeLeft !important;
+}
+.fadeRight {
+  animation-name: fadeRight !important;
+}
+.slideUp {
+  animation-name: slideUp !important;
+}
+.slideLeft {
+  animation-name: slideLeft !important;
+}
+.slideDown {
+  animation-name: slideDown !important;
+}
+.slideRight {
+  animation-name: slideRight !important;
+}
+.zoomIn {
+  animation-name: zoomIn !important;
+}
+.zoomInLeft {
+  animation-name: zoomInLeft !important;
+}
+.zoomInRight {
+  animation-name: zoomInRight !important;
+}
+.rotateCenter {
+  -webkit-animation-name: rotateCenter;
+  animation-name: rotateCenter;
+}
+.rotateBotLeft {
+  -webkit-animation-name: rotateBotLeft;
+  animation-name: rotateBotLeft;
+}
+.rotateVertical {
+  -webkit-animation: rotateVertical 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+  animation: rotateVertical 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+.rotateDiagonal {
+  -webkit-animation: rotateDiagonal 0.4s linear both;
+  animation: rotateDiagonal 0.4s linear both;
+}
+.flipHorizontalBottom {
+  -webkit-animation: flipHorizontalBottom 0.4s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: flipHorizontalBottom 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+}
+.flipScaleUpHor {
+  -webkit-animation: flipScaleUpHor 0.5s linear both;
+  animation: flipScaleUpHor 0.5s linear both;
+}
+.slideRotateTopHor {
+  -webkit-animation: slideRotateTopHor 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slideRotateTopHor 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.slideRotateHorBottom {
+  -webkit-animation: slideRotateHorBottom 0.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slideRotateHorBottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.shadowDropCenter {
+  -webkit-animation: shadowDropCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadowDropCenter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.shadowDropTB {
+  -webkit-animation: shadowDropTB 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadowDropTB 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.shadowDropLR {
+  -webkit-animation: shadowDropLR 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadowDropLR 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.shadowDrop2Center {
+  -webkit-animation: shadowDrop2Center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadowDrop2Center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
