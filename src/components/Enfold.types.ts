@@ -1,4 +1,5 @@
-import {} from "react";
+import React from "react";
+
 export interface EnfoldProps {
   name: string;
   options?: {
@@ -8,4 +9,5 @@ export interface EnfoldProps {
     intensity?: number;
     threshold?: number;
   };
+  children: React.ReactNode;
 }
