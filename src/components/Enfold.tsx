@@ -20,7 +20,9 @@ const Enfold: FC<EnfoldProps> = ({
         animationTimingFunction: options.easing,
         animationDelay: options.delay,
       }}
-    ></div>
+    >
+      hELLO
+    </div>
   );
 };
 
