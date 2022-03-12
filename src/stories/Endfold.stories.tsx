@@ -17,5 +17,5 @@ const Template: Story<EnfoldProps> = (args) => <Enfold {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   children: <div>asd</div>,
-  name: "slideRight",
+  name: "fadeLeft",
 };
