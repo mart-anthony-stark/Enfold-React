@@ -93,7 +93,8 @@
 }
 @keyframes fadeLeft {
   0% {
-    transform: translateX(var(--e-intensity));
+    transform: translateX(30px);
+    /* transform: translateX(var(--e-intensity)); */
     opacity: 0;
   }
   100% {
@@ -103,7 +104,8 @@
 }
 @keyframes fadeRight {
   0% {
-    transform: translateX(-var(--e-intensity));
+    transform: translateX(-30px);
+    /* transform: translateX(-var(--e-intensity)); */
     opacity: 0;
   }
   100% {
@@ -113,7 +115,8 @@
 }
 @keyframes slideUp {
   0% {
-    transform: translateY(var(--e-intensity) px);
+    transform: translateY(30px px);
+    /* transform: translateY(var(--e-intensity) px); */
   }
   100% {
     transform: translateY(0px);
@@ -121,7 +124,8 @@
 }
 @keyframes slideLeft {
   0% {
-    transform: translateX(var(--e-intensity) px);
+    transform: translateX(30px px);
+    /* transform: translateX(var(--e-intensity) px); */
   }
   100% {
     transform: translateX(0px);
@@ -129,7 +133,8 @@
 }
 @keyframes slideRight {
   0% {
-    transform: translateX(-var(--e-intensity) px);
+    transform: translateX(-30px px);
+    /* transform: translateX(-var(--e-intensity) px); */
   }
   100% {
     transform: translateX(0px);
@@ -137,7 +142,8 @@
 }
 @keyframes slideDown {
   0% {
-    transform: translateY(-var(--e-intensity) px);
+    transform: translateY(-30px px);
+    /* transform: translateY(-var(--e-intensity) px); */
   }
   100% {
     transform: translateY(0px);
@@ -153,7 +159,8 @@
 }
 @keyframes zoomInLeft {
   0% {
-    transform: translateX(var(--e-intensity) px) scale(0.5);
+    transform: translateX(30px px) scale(0.5);
+    /* transform: translateX(var(--e-intensity) px) scale(0.5); */
   }
   100% {
     transform: translateX(0px) scale(1);
@@ -161,7 +168,8 @@
 }
 @keyframes zoomInRight {
   0% {
-    transform: translateX(var(--e-intensity) px) scale(0.5);
+    transform: translateX(30px px) scale(0.5);
+    /* transform: translateX(var(--e-intensity) px) scale(0.5); */
   }
   100% {
     transform: translateX(0px) scale(1);
