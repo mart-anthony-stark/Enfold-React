@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { EnfoldProps } from "./Enfold.types";
+import "../styles/main.css";
 
 const Enfold: FC<EnfoldProps> = ({
   name,
@@ -20,6 +21,7 @@ const Enfold: FC<EnfoldProps> = ({
         animationTimingFunction: options.easing,
         animationDelay: options.delay,
       }}
+      className={name}
     >
       {children}
     </div>
