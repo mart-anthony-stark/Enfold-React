@@ -21,7 +21,7 @@ const Enfold: FC<EnfoldProps> = ({
         animationDelay: options.delay,
       }}
     >
-      hELLO
+      {children}
     </div>
   );
 };
