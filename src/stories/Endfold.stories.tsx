@@ -12,7 +12,7 @@ export default {
   argTypes: {},
 } as Meta<typeof Enfold>;
 
-const Template: Story<EnfoldProps> = (args) => <Enfold {...args} />;
+const Template: Story<EnfoldProps> = (args) => <div className="container"><Enfold {...args} /></div>;
 
 export const Primary = Template.bind({});
 Primary.args = {
