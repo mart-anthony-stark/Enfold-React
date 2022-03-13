@@ -115,7 +115,7 @@
 }
 @keyframes slideUp {
   0% {
-    transform: translateY(30px px);
+    transform: translateY(30px);
     /* transform: translateY(var(--e-intensity) px); */
   }
   100% {
@@ -124,7 +124,7 @@
 }
 @keyframes slideLeft {
   0% {
-    transform: translateX(30px px);
+    transform: translateX(30px);
     /* transform: translateX(var(--e-intensity) px); */
   }
   100% {
@@ -133,7 +133,7 @@
 }
 @keyframes slideRight {
   0% {
-    transform: translateX(-30px px);
+    transform: translateX(-30px);
     /* transform: translateX(-var(--e-intensity) px); */
   }
   100% {
@@ -142,7 +142,7 @@
 }
 @keyframes slideDown {
   0% {
-    transform: translateY(-30px px);
+    transform: translateY(-30px);
     /* transform: translateY(-var(--e-intensity) px); */
   }
   100% {
