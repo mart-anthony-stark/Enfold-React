@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { EnfoldProps } from "./Enfold.types";
 import "../styles/main.css";
+import injectStyle from "./InjectStyle";
 
 const Enfold: FC<EnfoldProps> = ({
   name,
@@ -14,6 +15,7 @@ const Enfold: FC<EnfoldProps> = ({
   },
 }) => {
   const animations = keyframes({ intensity: options.intensity });
+  injectStyle(keyframes)
   return (
     <div
       id="enfold"
